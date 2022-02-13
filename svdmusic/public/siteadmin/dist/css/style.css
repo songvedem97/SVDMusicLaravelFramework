@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400&display=swap');
+body {
+    font-family: Lexend Deca;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.btn, .form-control, .alert {
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -ms-border-radius: 0px !important;
+    -o-border-radius: 0px !important;
+}
+
+.card {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+.elevation-3, .elevation-2 {
+    box-shadow: none !important;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -ms-border-radius: 0px !important;
+    -o-border-radius: 0px !important;
+}
+
+.badge-success, .badge-danger {
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -ms-border-radius: 0px !important;
+    -o-border-radius: 0px !important;
+}
+
+.btn-edit, .btn-delete {
+    padding: 0.75rem;
+    color: #fff;
+    border: 0px !important;
+}
+
+.btn-edit {
+    background-color: rgb(0, 119, 255);
+    border-radius: 5% !important;
+    -webkit-border-radius: 5% !important;
+    -moz-border-radius: 5% !important;
+    -ms-border-radius: 5% !important;
+    -o-border-radius: 5% !important;
+}
+
+.btn-delete {
+    background-color: rgb(255, 60, 0);
+    border-radius: 5% !important;
+    -webkit-border-radius: 5% !important;
+    -moz-border-radius: 5% !important;
+    -ms-border-radius: 5% !important;
+    -o-border-radius: 5% !important;
+}
+
+#helpId {
+    color: red !important;
+}
+
+.description-artist {
+    white-space: nowrap;
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.text-right{
+    width: 110px;
+}
